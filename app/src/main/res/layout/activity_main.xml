@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="621dp"
+        android:background="@color/purple_500"
+        android:text="Yahari Ore no Seishun"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <ScrollView
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-536dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:text="Prolog"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="335dp"
+                android:layout_height="881dp"
+                android:layout_marginEnd="250dp"
+                android:layout_marginBottom="557dp"
+                android:text="Masa remaja tak lain hanyalah sebuah kebohongan — sesuatu yang jahat.
+                Mereka yang terpersona olehnya senantiasa tertipu oleh diri mereka sendiri maupun orang-orang di sekitarnya. Mereka membenamkan diri mereka ke dalam keramaian, lalu berkubang dalam 'pengakuan' orang lain. Bahkan parahnya sebuah kegagalan atau hal semacamnya, justru dianggap sebagai salah satu 'penanda' dari masa remaja — yang seluruhnya membekas ke dalam lembar kenangan masing-masing dari mereka.
+                Salah satu dari sekian contoh.
+                Kegiatan yang terkait dengan masa remaja, sebut saja, tindak kriminal seperti mengutil ataupun tawuran, hanya akan dicap sebagai 'kenakalan remaja'.
+                Kegagalan yang mereka alami saat ujian sekolah, hanya akan disangkal dengan ucapan,
+                Dengan mengatasnamakan 'masa remaja', mereka mampu memutarbalikkan segala bentuk norma atau hal yang sudah berlaku di masyarakat. Bagi mereka, kebohongan, rahasia, kejahatan, bahkan kegagalan sekalipun, mereka anggap sebagai 'bumbu penyedap' dari 'masa remaja'. Segala kecacatan maupun keburukan dari perbuatan tersebut, mereka cap sebagai pengecualian semata. Sedangkan, kumpulan dari setiap kegagalan itu mereka anggap sebagai bagian dari indahnya masa remaja. Dan mereka mencap segala yang bukan 'hasil' dari masa remaja tersebut, tak lain sebagai 'kegagalan' itu sendiri.
+                'Kegagalan' yang menjadi penanda dari masa remaja itu, bukankah bisa dianggap pula sebagai 'esensi masa remaja' bagi 'mereka yang tak bisa berteman'? Kesemuanya itu penuh dengan standar ganda.[1]
+                Oleh karenanya, hal tersebut hanyalah omong kosong. Sebuah kebohongan, dusta, hal yang ditutup-tutupi, serta kecurangan yang pantas untuk dikutuk."
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@id/textView2"
+                app:layout_constraintEnd_toEndOf="@id/textView2"
+                app:layout_constraintHorizontal_bias="0.245"
+                app:layout_constraintStart_toStartOf="@id/textView2"
+                app:layout_constraintTop_toTopOf="@id/textView2"
+                app:layout_constraintVertical_bias="0.185" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
